@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #111827 !important;
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  /* Dark mode adjustments for additional elements */
+  .bg-dark {
+    background-color: rgb(var(--background-start-rgb));
+  }
+
+  .text-dark {
+    color: rgb(var(--foreground-rgb));
+  }
+}
+
+@layer utilities {
+  .bg-glow {
+    position: relative;
+    background-color: #111827; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    padding: 1rem; 
+  }
+
+  .bg-glow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    opacity: 0.5;
+    z-index: 0;
+    pointer-events: none;
+    filter: blur(8px); 
+  }
+
+  .bg-glow-content {
+    position: relative;
+    z-index: 1;
+    color: #f3f4f6;
+  }
+}
+

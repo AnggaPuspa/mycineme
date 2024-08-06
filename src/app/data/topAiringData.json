@@ -1,0 +1,15 @@
+[
+    {
+        "image": "https://d263ao8qih4miy.cloudfront.net/wp-content/uploads/2020/09/startup_banner.jpg",
+      "title": "Top Airing Title 1",
+      "episode": "Episode 5",
+      "genre": ["Action", "Romance"]
+    },
+    {
+        "image": "https://d263ao8qih4miy.cloudfront.net/wp-content/uploads/2020/09/startup_banner.jpg",
+      "title": "Top Airing Title 2",
+      "episode": "Episode 12",
+      "genre": ["Drama", "Fantasy"]
+    }
+  ]
+  

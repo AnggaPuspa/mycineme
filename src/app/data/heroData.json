@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "image": "https://d263ao8qih4miy.cloudfront.net/wp-content/uploads/2020/09/startup_banner.jpg",
+    "status": "Ongoing",
+    "title": "Startup",
+    "genre": ["Action", "Romance"],
+    "description": "Start-Up adalah seri televisi Korea Selatan tahun 2020 yang dibintangi oleh Bae Suzy, Nam Joo-hyuk, Kim Seon-ho, dan Kang Han-na. Drama ini disiarkan di tvN setiap Sabtu dan Minggu pukul 21:00 mulai 17 Oktober hingga 6 Desember 2020 dan juga tersedia untuk penonton internasional melalui Netflix."
+  },
+  {
+    "id": 2,
+    "image": "https://d263ao8qih4miy.cloudfront.net/wp-content/uploads/2020/09/startup_banner.jpg",
+    "status": "Completed",
+    "title": "Judul Film 2",
+    "genre": ["Drama", "Thriller"],
+    "description": "Deskripsi singkat tentang film 2."
+  }
+
+]
